@@ -20,11 +20,12 @@ For the development of Scrim, the most modern libraries that react can offer wer
 
 A production version is available at: [http://scrim-games-app.herokuapp.com](http://scrim-games-app.herokuapp.com)
 
-### Technologies
+## Technologies
 
 - [ReactJS](https://reactjs.org/)
 - [PHP](https://www.php.net/)
 - [Laravel](https://laravel.com/)
+- [PostgreSQL](https://www.postgresql.org/)
 - [Docker](https://www.docker.com/)
 
 ## How to run
