@@ -1,13 +1,15 @@
 import React from 'react';
 
 import api from '../../services/api';
+
 import { useQuery, useQueryClient } from 'react-query';
 
-import * as S from './styles';
 import Loading from '../../assets/loading.gif';
 import HeaderMain from '../../components/HeaderMain';
 import Footer from '../../components/Footer';
 import Pagination from '../../components/Pagination';
+
+import * as S from './styles';
 
 const Home = () => {
 
