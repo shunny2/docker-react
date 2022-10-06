@@ -61,7 +61,7 @@ npm start
 
 ## Status
 
-> Status: Finish.
+> Status: Completed.
 
 <hr></hr>
 
