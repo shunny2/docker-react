@@ -59,7 +59,7 @@ Run the project:
 npm start
 ```
 
-## Proejct Status
+## Project Status
 
 > Status: Completed.
 
