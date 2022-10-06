@@ -5,7 +5,7 @@
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#how-to-run">How to run</a>
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#status">Status</a>
+<a href="#project-status">Status</a>
 </p>
 
 </br>
@@ -59,7 +59,7 @@ Run the project:
 npm start
 ```
 
-## Status
+## Proejct Status
 
 > Status: Completed.
 
