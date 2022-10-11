@@ -19,7 +19,7 @@ export const AuthProvider = (props) => {
             }
         }
         validateToken();
-
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const signIn = async (email, password) => {
