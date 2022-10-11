@@ -18,7 +18,7 @@ Scrim is a web application for registering and listing games. The application ma
 
 For the development of Scrim, the most modern libraries that react can offer were used.
 
-A production version is available at: [http://scrim-games-app.herokuapp.com](http://scrim-games-app.herokuapp.com)
+A production version is available at: [https://scrim-games-app.herokuapp.com](https://scrim-games-app.herokuapp.com)
 
 ## Technologies
 
