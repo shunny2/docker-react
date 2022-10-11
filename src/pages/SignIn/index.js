@@ -54,6 +54,7 @@ const SignIn = () => {
     }
     
     signInWithToken(token);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [navigate, token]);
 
   return (
