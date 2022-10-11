@@ -9,6 +9,8 @@ import Loading from '../../assets/loading.gif';
 
 import api from '../../services/api';
 
+import { verifyCost } from '../../utils';
+
 const ViewMore = () => {
   const [game, setGame] = useState({});
   const [loading, setLoading] = useState(true);
@@ -63,5 +65,3 @@ const ViewMore = () => {
 }
 
 export default ViewMore;
-
-const verifyCost = (cost) => (String(cost).includes('0.00') ? 'Gratuito.' : 'R$ ' + (Number(cost).toFixed(2)).replace('.', ','));

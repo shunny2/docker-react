@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
+
+import More from '../../assets/more.png';
+
 import * as S from './styles';
 import './index.css';
-import More from '../../assets/more.png';
+
+import { formatDescription, formatTitle, verifyCost } from "../../utils";
 
 export default function Images(props) {
     const { data } = props;
@@ -71,7 +75,3 @@ export default function Images(props) {
         </>
     );
 }
-
-const verifyCost = (cost) => (cost.includes('0.00') ? 'Gratuito.' : 'R$ ' + (Number(cost).toFixed(2)).replace('.', ','));
-const formatTitle = (text) => (text.length > 20 ? text.substring(0, 20) + '...' : text);
-const formatDescription = (text) => (text.includes('.') ? text.substring(0, text.indexOf('.')) + '...' : text.substring(0, 44) + '...');
