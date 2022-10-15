@@ -39,7 +39,7 @@ export const Image = styled.img`
     width: 20%;
     margin-left: 40px;
 
-    @media (min-wdith: 640px) {
+    @media (min-width: 640px) {
         width: 30%;
     }
 `;

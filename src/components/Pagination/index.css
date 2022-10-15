@@ -42,7 +42,13 @@
 }
 
 .navigationDisabled a {
-    color: #3DECB1;
+    border-color: #ccc;
+    color: #ccc;
+}
+
+.navigationDisabled a:hover {
+    border-color: white;
+    background-color: transparent;
 }
 
 .pageActive a {
