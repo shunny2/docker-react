@@ -1,17 +1,12 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-    margin-bottom: 4rem;
+    margin-bottom: 8px;
     border: 3px solid #29EBAA;
 
-    @media (max-height: 851px) {
-        margin-bottom: 1.2rem;
+    @media (min-width: 640px) {
+        margin-bottom: 64px;
     }
-
-    @media (max-height: 653px) {
-        margin-bottom: 0.5rem;
-    }
-
 `;
 
 export const Container = styled.div`
@@ -20,14 +15,10 @@ export const Container = styled.div`
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    height: 100px;
+    height: 60px;
 
-    @media (max-height: 851px) {
-        height: 80px;
-    }
-
-    @media (max-height: 653px) {
-        height: 60px;
+    @media (min-width: 640px) {
+        height: 100px;
     }
 `;
 
@@ -35,15 +26,14 @@ export const Logo = styled.div`
     margin: 10px;
     font-family: monospace;
     font-weight: 700;
-    color: #29EBAA;
     cursor: pointer;
 `;
 
 export const H1 = styled.h1`
-    font-size: 2.2em;
+    font-size: 24px;
 
-    @media (max-height: 653px) {
-        font-size: 1.6em;
+    @media (min-width: 640px) {
+        font-size: 32px;
     }
 `;
 
@@ -53,7 +43,7 @@ export const Buttons = styled.div`
 `;
 
 export const Button = styled.button`
-    font-size: 1.2rem;
+    font-size: 12px;
     font-family: monospace;
     font-weight: 700;
     background-color: rgba(255, 255, 255, 0);
@@ -69,7 +59,7 @@ export const Button = styled.button`
         color: white;
     }
 
-    @media (max-height: 653px) {
-        font-size: 0.8em;
+    @media (min-width: 640px) {
+        font-size: 20px;
     }
 `;

@@ -1,14 +1,22 @@
 .navigationButtons {
-    width: 100%;
-    height: 40px;
-    list-style: none;
     display: flex;
+    align-items: center;
     justify-content: center;
+    list-style: none;
     margin: auto;
-    padding-top: 40px;
+    width: 100%;
+    height: 80px;
     color: #3DECB1;
+    padding: 10px;
+    position: absolute;
+    bottom: 60px;
 }
 
+@media (min-width: 640px) {
+    .navigationButtons {
+        bottom: 130px;
+    }
+}
 .navigationButtons :hover {
     color: white;
 }
@@ -38,5 +46,5 @@
 }
 
 .pageActive a {
-    background-color: #c3f8e6;
+    color: white;
 }

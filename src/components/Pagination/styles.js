@@ -1,50 +1,40 @@
 import styled, { css } from 'styled-components';
 
 export const Content = styled.div`
-    /* display: flex; */
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 16px;
     margin: 1px auto;
-    width: 60%;
-    min-height: 60vh;
+    width: 100%;
+    min-height: 50vh;
 
-    @media (max-height: 851px) {
-        min-height: 65vh;
-        width: 100%;
-    }
-
-    @media (max-height: 653px) {
-        min-height: 50vh;
-        width: 100%;
+    @media (min-width: 640px) {
+        min-height: 60vh;
+        width: 60%;
     }
 `;
 
 export const Card = styled.div`
-    margin: 30px auto;
-    padding: 30px 40px;
-    width: 600px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    width: 350px;
     border: 3px solid #3DECB1;
     border-radius: 7px;
 
-    @media (max-height: 851px) {
-        width: 325px;
-    }
-
-    @media (max-height: 653px) {
-        width: 250px;
-        margin: 10px auto;
-        padding: 20px 30px;
+    @media (min-width: 640px) {
+        width: 600px;
+        margin: 30px auto;
+        padding: 30px 40px;
     }
 `;
 
 export const Image = styled.img`
     width: 30px;
-    margin-left: 40px;
+    height: 30px;
+    margin-left: 30px;
     cursor: pointer;
 
-    @media (max-height: 653px) {
-        width: 30px;
-        margin-left: 30px;
+    @media (min-width: 640px) {
+        margin-left: 40px;
     }
 `;
 
@@ -57,75 +47,59 @@ export const Header = styled.header`
 export const H2 = styled.h2`
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 350px;
     font-family: Noto Sans;
     font-weight: 700;
-    font-size: 1.7rem;
-    color: #3DECB1;
+    font-size: 14px;
 
-    @media (max-height: 851px) {
-        font-size: 0.9rem;
-        max-width: 450px;
-    }
-
-    @media (max-height: 653px) {
-        font-size: 0.8rem;
-        max-width: 350px;
+    @media (min-width: 640px) {
+        font-size: 28px;
+        max-width: 500px;
     }
 `;
 
 export const Line = styled.div`
-    background-color:#3DECB1;
-    height: 2px;
+    background-color: #3DECB1;
+    height: 1.5px;
 
-    @media (max-height: 653px) {
-        height: 1.5px;
+    @media (min-width: 640px) {
+        height: 2px;
     }
 `;
 
 export const Description = styled.p`
     margin-top: 20px;
-    font-size: 1.2rem;
-    max-width: 500px;
+    font-size: 12px;
+    max-width: 350px;
     font-family: Noto Sans;
     font-weight: 500;
-    color: #3DECB1;
 
-    @media (max-height: 851px) {
-        font-size: 0.8rem;
-        max-width: 450px;
-    }
-
-    @media (max-height: 653px) {
-        font-size: 0.7rem;
-        max-width: 350px;
+    @media (min-width: 640px) {
+        font-size: 20px;
+        max-width: 500px;
     }
 `;
 
 export const Buttons = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 
-    @media (max-height: 851px) {
-        margin-top: 25px;
-    }
-
-    @media (max-height: 653px) {
-        margin-top: 20px;
+    @media (min-width: 640px) {
+        margin-top: 30px;
     }
 `;
 
 export const Button = styled.button`
     background-color: transparent;
     color: #3DECB1;
-    font-size: 1.3rem;
+    font-size: 10px;
     border-color: #3DECB1;
     border-radius: 5px;
     font-family: monospace;
     font-weight: 700;
     cursor: pointer;
-    padding: 5px 40px;
+    padding: 5px 7px;
 
     ${props =>
         ((props.name === 'btn-view') && css`
@@ -145,17 +119,8 @@ export const Button = styled.button`
             }`)
     }
 
-    @media (max-height: 851px) {
-        font-size: 0.7rem;
-        width: 80px;
-        padding: 5px 10px;
-        margin: 0px 1px;
-    }
-
-    @media (max-height: 653px) {
-        font-size: 0.55rem;
-        width: 65px;
-        padding: 5px 7px;
-        margin: 0px 1px;
+    @media (min-width: 640px) {
+        font-size: 20px;
+        padding: 5px 40px;
     }
 `;

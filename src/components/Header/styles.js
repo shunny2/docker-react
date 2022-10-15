@@ -10,14 +10,10 @@ export const Container = styled.div`
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    height: 100px;
+    height: 60px;
 
-    @media (max-height: 851px) {
-        height: 80px;
-    }
-
-    @media (max-height: 653px) {
-        height: 60px;
+    @media (min-width: 640px) {
+        height: 100px;
     }
 `;
 

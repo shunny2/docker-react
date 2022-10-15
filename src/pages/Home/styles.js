@@ -17,10 +17,10 @@ export const Loading = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 30%;
+    width: 20%;
     margin-left: 40px;
 
-    @media (max-height: 851px) {
-        width: 20%;
+    @media (min-wdith: 640px) {
+        width: 30%;
     }
 `;

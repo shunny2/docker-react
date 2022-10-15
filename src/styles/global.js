@@ -8,8 +8,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        width: 100vw;
-        height: 100vh;
+        color: #29EBAA;
         background-color: #182707;
         font-family: 'Segoe UI', 'Roboto', 'Oxygen',
           'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
