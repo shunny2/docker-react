@@ -34,6 +34,12 @@ First, start by cloning the repository:
 ```shell
 git clone https://github.com/shunny2/scrim-frontend
 ```
+
+Install project dependencies:
+```bash
+npm install
+```
+
 In the project directory, you can run:
 ```bash
 npm start
@@ -52,6 +58,11 @@ docker run -d --restart=always -p 3000:3000 scrim_frontend
 Enter the container:
 ```bash
 docker exec -it container_id /bin/bash
+```
+
+Install project dependencies:
+```bash
+npm install
 ```
 
 Run the project:
