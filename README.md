@@ -10,7 +10,7 @@
 
 </br>
 
-![Captura de tela 2022-06-22 103753](https://user-images.githubusercontent.com/72872854/175042987-022f1d10-6b61-42c7-b122-4261fe972bbc.png)
+![scrim-gif](https://user-images.githubusercontent.com/72872854/196009205-08586170-6500-4d86-b1ea-8b10faea8190.gif)
 
 ## About Scrim
 
