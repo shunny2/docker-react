@@ -12,9 +12,15 @@
 
 ![scrim-gif](https://user-images.githubusercontent.com/72872854/196009205-08586170-6500-4d86-b1ea-8b10faea8190.gif)
 
+<p align="center">
+<a href="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social" alt="Stars"></a>
+<a href="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social" alt="Forks"></a>
+<a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
+</p>
+
 ## About Scrim
 
-Scrim is a web application for registering and listing games. The application makes requests to the backend via API to perform its functions.
+Scrim is a web application for registering and listing games. The application makes requests to the [backend](https://github.com/shunny2/scrim-backend) via API to perform its functions.
 
 For the development of Scrim, the most modern libraries that react can offer were used.
 
