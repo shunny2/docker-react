@@ -20,7 +20,7 @@
 
 ## About Scrim
 
-Scrim is a web application for registering and listing games. The application makes requests to the [backend](https://github.com/shunny2/scrim-backend) via API to perform its functions.
+<b>Scrim</b> is a web application for registering and listing games. The application makes requests to the [backend](https://github.com/shunny2/scrim-backend) via API to perform its functions.
 
 For the development of Scrim, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
 
