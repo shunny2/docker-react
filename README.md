@@ -15,9 +15,9 @@
 ![scrim-gif](https://user-images.githubusercontent.com/72872854/196009205-08586170-6500-4d86-b1ea-8b10faea8190.gif)
 
 <p align="center">
-<a href="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social" alt="Stars"></a>
-<a href="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social" alt="Forks"></a>
-<a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
+  <a href="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social" alt="Stars"></a>
+  <a href="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social" alt="Forks"></a>
+  <a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
 </p>
 
 ## About Scrim
@@ -26,7 +26,7 @@
 
 For the development of Scrim, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
 
-A production version is available at: [https://scrim-games-app.herokuapp.com](https://scrim-games-app.herokuapp.com)
+A production version is available at [https://scrim-games-app.herokuapp.com](https://scrim-games.vercel.app/)
 
 ## Technologies
 
