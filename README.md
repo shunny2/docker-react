@@ -26,7 +26,7 @@
 
 For the development of Scrim, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
 
-A production version is available at [https://scrim-games-app.herokuapp.com](https://scrim-games.vercel.app/)
+A production version is available at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/)
 
 ## Technologies
 
