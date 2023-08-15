@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#about-scrim-games">About Scrim Games</a>
+  <a href="#about-application">About Application</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,7 +20,7 @@
   <a href="https://img.shields.io/github/license/shunny2/scrim-games"><img src="https://img.shields.io/github/license/shunny2/scrim-games" alt="License"></a>
 </p>
 
-## About Scrim Games
+## About Application
 
 <b>Scrim Games</b> is a web application for recording and listing games. The application consumes a rest [API](https://github.com/shunny2/scrim-games-api) in PHP (Laravel) to perform user authentication and other functionalities.
 
@@ -47,7 +47,7 @@ A production version is available at [https://scrim-games.vercel.app/](https://s
 
 First, start by cloning the repository:
 ```shell
-git clone https://github.com/shunny2/scrim-frontend
+git clone https://github.com/shunny2/scrim-games
 ```
 
 Install project dependencies:
@@ -62,12 +62,12 @@ npm start
 
 If you are using docker you should build an image:
 ```bash
-docker build -t scrim_frontend .
+docker build -t scrim_games .
 ```
 
 Running the container along with the image:
 ```bash
-docker run -d --restart=always -p 3000:3000 scrim_frontend
+docker run -d --restart=always -p 3000:3000 scrim_games
 ```
 
 Enter the container:
