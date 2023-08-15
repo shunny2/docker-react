@@ -20,9 +20,9 @@
   <a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
 </p>
 
-## About Scrim
+## About Scrim Games
 
-<b>Scrim</b> is a web application for recording and listing games. The application consumes a rest [API](https://github.com/shunny2/scrim-backend) in PHP (Laravel) to perform user authentication and other functionalities.
+<b>Scrim Games</b> is a web application for recording and listing games. The application consumes a rest [API](https://github.com/shunny2/scrim-backend) in PHP (Laravel) to perform user authentication and other functionalities.
 
 For the development of Scrim, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
 
