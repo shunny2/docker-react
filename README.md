@@ -1,11 +1,13 @@
 <p align="center">
-<a href="#about-scrim">About Scrim</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#technologies">Technologies</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#how-to-run">How to run</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#project-status">Project Status</a>
+  <a href="#about-scrim">About Scrim</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-run">How to run</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#project-status">Project Status</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 </br>
@@ -13,26 +15,33 @@
 ![scrim-gif](https://user-images.githubusercontent.com/72872854/196009205-08586170-6500-4d86-b1ea-8b10faea8190.gif)
 
 <p align="center">
-<a href="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social" alt="Stars"></a>
-<a href="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social" alt="Forks"></a>
-<a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
+  <a href="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-frontend?style=social" alt="Stars"></a>
+  <a href="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-frontend?style=social" alt="Forks"></a>
+  <a href="https://img.shields.io/github/license/shunny2/scrim-frontend"><img src="https://img.shields.io/github/license/shunny2/scrim-frontend" alt="License"></a>
 </p>
 
 ## About Scrim
 
-Scrim is a web application for registering and listing games. The application makes requests to the [backend](https://github.com/shunny2/scrim-backend) via API to perform its functions.
+<b>Scrim</b> is a web application for recording and listing games. The application consumes a rest [API](https://github.com/shunny2/scrim-backend) in PHP (Laravel) to perform user authentication and other functionalities.
 
 For the development of Scrim, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
 
-A production version is available at: [https://scrim-games-app.herokuapp.com](https://scrim-games-app.herokuapp.com)
+A production version is available at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/)
 
 ## Technologies
 
-- [ReactJS](https://reactjs.org/)
-- [PHP](https://www.php.net/)
-- [Laravel](https://laravel.com/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Docker](https://www.docker.com/)
+<table>
+  <thead>
+  </thead>
+  <tbody>
+    <td>
+      <a href="https://reactjs.org/" title="React"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React logo image." /></a>
+    </td>
+    <td>
+      <a href="https://www.docker.com/" title="Docker"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker logo image." /></a>
+    </td>
+  </tbody>
+</table>
 
 ## How to run
 
@@ -79,6 +88,10 @@ npm start
 ## Project Status
 
 > Status: Completed.
+
+## License
+
+This project is under an [MIT](https://opensource.org/licenses/MIT) license.
 
 <hr></hr>
 
