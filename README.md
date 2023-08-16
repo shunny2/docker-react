@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://img.shields.io/github/stars/shunny2/scrim-games?style=social"><img src="https://img.shields.io/github/stars/shunny2/scrim-games?style=social" alt="Stars"></a>
   <a href="https://img.shields.io/github/forks/shunny2/scrim-games?style=social"><img src="https://img.shields.io/github/forks/shunny2/scrim-games?style=social" alt="Forks"></a>
-  <a href="https://img.shields.io/github/license/shunny2/scrim-games"><img src="https://img.shields.io/github/license/shunny2/scrim-games" alt="License"></a>
+  <a href="https://img.shields.io/github/license/shunny2/scrim-games?style=social"><img src="https://img.shields.io/github/license/shunny2/scrim-games?style=social" alt="License"></a>
 </p>
 
 ## About Application
