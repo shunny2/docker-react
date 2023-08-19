@@ -22,11 +22,11 @@
 
 ## About Application
 
-<b>Scrim Games</b> is a web application for recording and listing games. The application consumes a rest [API](https://github.com/shunny2/scrim-games-api) in PHP (Laravel) to perform user authentication and other functionalities.
+<b>Scrim Games</b> is a web application designed for recording and organizing gaming sessions. Its primary purpose is educational, providing a practical tool for game session documentation. The application interacts with a PHP-based [REST API](https://github.com/shunny2/scrim-games-api), leveraging the [Laravel](https://laravel.com/) framework, to facilitate user authentication and access to game-related features.
 
-For the development of <b>Scrim Games</b>, the most modern libraries that [React](https://reactjs.org/) and [Laravel](https://laravel.com/) can offer were used.
+In the development of <b>Scrim Games</b>, we harnessed the cutting-edge libraries that both [React](https://reactjs.org/) and [Laravel](https://laravel.com/) have to offer. This ensures a modern user experience and robust functionalities, enhancing the interaction and management of recorded gaming sessions.
 
-A production version is available at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/)
+A finalized version can be accessed at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/)
 
 ## Technologies
 
