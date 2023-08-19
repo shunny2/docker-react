@@ -26,7 +26,7 @@
 
 In the development of <b>Scrim Games</b>, we harnessed the cutting-edge libraries that both [React](https://reactjs.org/) and [Laravel](https://laravel.com/) have to offer. This ensures a modern user experience and robust functionalities, enhancing the interaction and management of recorded gaming sessions.
 
-A finalized version can be accessed at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/)
+A finalized version can be accessed at [https://scrim-games.vercel.app/](https://scrim-games.vercel.app/).
 
 ## Technologies
 
